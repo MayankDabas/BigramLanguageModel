@@ -31,7 +31,8 @@ def save_data(data):
     
     print(f"Preprocessed data saved: {json_filepath}...")
 
-
+def vocabulary_size():
+    return len(vocabulary)
 
 def preprocess_data():
     data = character_encoding(text)
